@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/assistant/static/css/main.fcbeafe4.css",
+    "main.js": "/assistant/static/js/main.cdf09e96.js",
+    "static/js/453.ed3810f9.chunk.js": "/assistant/static/js/453.ed3810f9.chunk.js",
+    "static/media/logo.svg": "/assistant/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/assistant/index.html",
+    "main.fcbeafe4.css.map": "/assistant/static/css/main.fcbeafe4.css.map",
+    "main.cdf09e96.js.map": "/assistant/static/js/main.cdf09e96.js.map",
+    "453.ed3810f9.chunk.js.map": "/assistant/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcbeafe4.css",
+    "static/js/main.cdf09e96.js"
+  ]
+}
