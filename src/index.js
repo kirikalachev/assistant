@@ -3,30 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Tool from './Tool';
-
 import reportWebVitals from './reportWebVitals';
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
-const router = createBrowserRouter( [
-
-  {
-    path: '/',
-    element: <App />
-  },
-
-  {
-    path: '/tool',
-    element: <Tool />
-  }
-
-] );
+// Import HashRouter and other components from react-router-dom
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}>
-    </RouterProvider>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/tool" element={<Tool />} />
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 );
 
