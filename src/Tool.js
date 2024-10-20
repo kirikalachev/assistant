@@ -15,6 +15,7 @@ function Tool() {
 
         return (
             <div className='menu'>
+                <div>f</div>
                 <input type='button' value='Open' className='openBlackbox' onClick={toggleBlackbox}></input>
                 {isBlackboxOpen?
                     <iframe src="https://www.blackbox.ai/" title="W3Schools Free Online Web Tutorials" className='blackbox'></iframe> : null
