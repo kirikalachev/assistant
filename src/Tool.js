@@ -16,9 +16,12 @@ function Tool() {
         return (
             <div className='menu'>
                 <input type='button' value='Open' className='openBlackbox' onClick={toggleBlackbox}></input>
-                {isBlackboxOpen?
-                    <iframe src="https://www.blackbox.ai/" title="W3Schools Free Online Web Tutorials" className='blackbox'></iframe> : null
-                }
+
+                <iframe 
+                  src="https://www.blackbox.ai/" 
+                  title="ChatGPT" 
+                  className={`chat ${isBlackboxOpen ? 'opened' : ''}`}
+                ></iframe>
             </div>
         )
     }

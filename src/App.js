@@ -15,8 +15,6 @@ function App() {
     setInputValue(event.target.value);
   }
 
-  console.log(inputValue);
-
   return (
     <div className="App">
       <form>

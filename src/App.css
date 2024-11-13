@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+iframe {
+  width: 100%;
+  height: 100vh;
+  user-select: text;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.chat {
+  width: 60%;
+  height: 100vh;
+  position: fixed;
+  left: 50px;
+  visibility: hidden;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.openBlackbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  opacity: 0;
+  border-radius: 15px;
+  background-color: brown;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.openBlackbox:hover {
+  opacity: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.chat.opened {
+visibility: visible;}
+
+/* This will apply the style only when the screen width is 768px or smaller */
+@media (max-width: 768px) {
+  .chat {
+    width: 90%;
+    height: 90vh
   }
 }
