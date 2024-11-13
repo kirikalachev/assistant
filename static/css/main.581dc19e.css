@@ -1,0 +1,2 @@
+iframe{height:100vh;-webkit-user-select:text;user-select:text;width:100%}.chat{height:100vh;left:50px;position:fixed;visibility:hidden;width:60%}.openBlackbox{background-color:brown;border:0;border-radius:15px;color:#fff;height:50px;left:0;opacity:0;position:fixed;top:0;width:50px}.openBlackbox:hover{opacity:1}.chat.opened{visibility:visible}@media (max-width:768px){.chat{height:90vh;width:90%}}
+/*# sourceMappingURL=main.581dc19e.css.map*/
